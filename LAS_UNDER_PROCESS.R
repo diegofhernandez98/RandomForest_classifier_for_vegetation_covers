@@ -27,7 +27,7 @@ for (i in seq_along(f.list2)) {
   buffer_list[[i]] <- buffer_zone
   names(buffer_list)[i] <- name_site
 }
-study_area <- buffer_list$P02
+study_area <- buffer_list$P02 
 
 
 #LASCatalog processing engine 
